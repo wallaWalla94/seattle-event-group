@@ -6,9 +6,20 @@
 <title>Seattle Event Group | Beautiful celebrations, thoughtfully priced</title>
 <meta name="description" content="A fresh approach to weddings, tea ceremonies, XV años, and company gatherings in Seattle, Bellevue, Redmond, and Kirkland. Elevated design. Thoughtful budgets.">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='20' fill='%23382130'/%3E%3Ctext x='20' y='29' text-anchor='middle' font-family='Georgia' font-size='29' fill='%23fffaf4'%3Es%3C/text%3E%3C/svg%3E">
-<link rel="stylesheet" href="styles.css?v=realistic-emblems">
+<link rel="stylesheet" href="styles.css?v=monochrome-emblems">
 </head>
 <body>
+<!-- Tint the photographic detail with the same ink used by the occasion numbers. -->
+<svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute">
+<defs>
+<filter id="occasion-ink" color-interpolation-filters="sRGB" x="0" y="0" width="100%" height="100%">
+<feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -.12756 -.42912 -.04332 0 1" result="ink-opacity"/>
+<feComposite in="ink-opacity" in2="SourceAlpha" operator="in" result="detail-alpha"/>
+<feFlood flood-color="var(--occasion-marker)" result="number-ink"/>
+<feComposite in="number-ink" in2="detail-alpha" operator="in"/>
+</filter>
+</defs>
+</svg>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
 <a class="brand" href="#" aria-label="Seattle Event Group home">SEATTLE<span>EVENT GROUP</span>
@@ -100,7 +111,7 @@
 <article>
 <div class="occasion-marker">
 <span class="number">01</span>
-<span class="occasion-emblem" aria-hidden="true"><img src="/assets/chapel-realistic.png" alt="" width="1254" height="1254" decoding="async"></span>
+<span class="occasion-emblem" aria-hidden="true"><img src="/assets/chapel-monochrome.png" alt="" width="1254" height="1254" decoding="async"></span>
 </div>
 <h3>Weddings &<br>“I do” moments</h3>
 <p>A celebration that feels like the two of you, with thoughtful details and room for the traditions you love.</p>
@@ -118,7 +129,7 @@
 <article>
 <div class="occasion-marker">
 <span class="number">03</span>
-<span class="occasion-emblem tiara-emblem" aria-hidden="true"><img src="/assets/tiara-realistic.png" alt="" width="1254" height="1254" decoding="async"></span>
+<span class="occasion-emblem tiara-emblem" aria-hidden="true"><img src="/assets/tiara-monochrome.png" alt="" width="1254" height="1254" decoding="async"></span>
 </div>
 <h3>XV años &<br>fairytale moments</h3>
 <p>A little royal, a little sparkle, and a whole lot of you. A quinceañera that celebrates your own kind of magic.</p>
@@ -127,7 +138,7 @@
 <article>
 <div class="occasion-marker">
 <span class="number">04</span>
-<span class="occasion-emblem briefcase-emblem" aria-hidden="true"><img src="/assets/briefcase-realistic.png" alt="" width="1254" height="1254" decoding="async"></span>
+<span class="occasion-emblem briefcase-emblem" aria-hidden="true"><img src="/assets/briefcase-monochrome.png" alt="" width="1254" height="1254" decoding="async"></span>
 </div>
 <h3>Business,<br>with personality</h3>
 <p>Team celebrations and company gatherings that trade the ordinary for an atmosphere people connect in.</p>

@@ -232,6 +232,7 @@ h2 em {
   justify-content:space-between;
   height:19px}
 .occasion-emblem {
+  position:relative;
   display:grid;
   place-items:center;
   width:36px;
@@ -243,19 +244,25 @@ h2 em {
   background:transparent}
 .occasion-emblem img {
   display:block;
-  width:30px;
-  height:30px;
-  object-fit:contain}
-.tiara-emblem img {width:32px;height:32px}
-.briefcase-emblem img {width:27px;height:27px}
+  width:25px;
+  height:25px;
+  object-fit:contain;
+  filter:url('#occasion-ink')}
+.tiara-emblem img {width:28px;height:28px}
+.briefcase-emblem img {width:23px;height:23px}
 .double-happiness::before {
   content:'';
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
   display:block;
   width:25px;
   height:23px;
   background:currentColor;
-  -webkit-mask:url('assets/double-happiness.png') center/contain no-repeat;
-  mask:url('assets/double-happiness.png') center/contain no-repeat}
+  /* Center the artwork's visible bounds, including its uneven source padding. */
+  -webkit-mask:url('assets/double-happiness.png') calc(50% + .025px) calc(50% + .146px)/contain no-repeat;
+  mask:url('assets/double-happiness.png') calc(50% + .025px) calc(50% + .146px)/contain no-repeat}
 h3 {
   font-weight:400;
   font-family:Georgia,serif;

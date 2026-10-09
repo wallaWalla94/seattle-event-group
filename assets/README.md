@@ -10,6 +10,8 @@ The emblem is the user's existing wedding website artwork, reused at their reque
 
 ## Realistic occasion emblems
 
+The homepage now uses chapel-monochrome.png, tiara-monochrome.png, and briefcase-monochrome.png, edited with built-in Imagegen. A single-ink SVG filter shares the number color while retaining realistic detail through opacity. The chapel's door and window openings have transparent alpha. Smaller CSS sizes leave space inside the circles, and the double-happiness mask is centered using its visible source bounds. See [monochrome-emblem-prompts.md](monochrome-emblem-prompts.md) for the current assets and final edit prompts.
+
 chapel-realistic.png, tiara-realistic.png, and briefcase-realistic.png are photographic transparent cutouts generated with the built-in Imagegen tool from the user's reference photographs. Their shading retains realistic material detail. They share the number-colored circular outline. See [realistic-emblem-prompts.md](realistic-emblem-prompts.md) for the saved asset names and final prompts.
 
 ## tea-ceremony.png
