@@ -3,9 +3,14 @@ SEATTLE EVENT GROUP WEBSITE
 index.html - content and slide images
 styles.css - design, responsive layout, and hero gradient
 script.js - slideshow controls and timing (INTERVAL_MS = 6500)
+occasions.css and occasions.js - distinct occasion pages and downloadable event briefs
+weddings/, tea-ceremony/, xv-anos/, corporate/ - occasion pages
+assets/ - AI-generated event inspiration; see assets/README.md for prompts
 
 
 NETLIFY DEPLOYMENT
+
+Live domain: https://seattleeventgroup.com
 
 Import wallaWalla94/seattle-event-group from GitHub into Netlify.
 Production branch: main
