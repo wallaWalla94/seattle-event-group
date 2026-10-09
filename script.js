@@ -51,8 +51,9 @@
   if (!hero) return;
   const slides = [...hero.querySelectorAll('.hero-slide')];
   const dots = [...hero.querySelectorAll('[data-slide]')];
-  const labels = ['01 / Weddings', '02 / Private celebrations', '03 / Company gatherings'];
+  const labels = slides.map((slide, i) => `${String(i + 1).padStart(2, '0')} / ${slide.dataset.occasion}`);
   const label = document.getElementById('slide-label');
+  const occasionLink = document.getElementById('slide-occasion-link');
   const pauseButton = document.getElementById('slide-pause');
   const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
   const INTERVAL_MS = 6500;
@@ -76,6 +77,7 @@
       dots[i].setAttribute('aria-pressed', String(i === current));
     });
     label.textContent = labels[current];
+    occasionLink.href = slides[current].dataset.url;
   }
   function syncPause() {
     pauseButton.textContent = paused ? 'Play' : 'Pause';

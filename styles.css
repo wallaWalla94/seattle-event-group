@@ -5,6 +5,7 @@
   --paper:#faf8f4;
   --ink:#30232b;
   --muted:#70656a;
+  --occasion-marker:#927a87;
   --accent:#d6ff89}
 * {
   box-sizing:border-box}
@@ -224,22 +225,30 @@ h2 em {
 .number {
   font-family:Georgia,serif;
   font-size:16px;
-  color:#927a87}
+  color:var(--occasion-marker)}
 .occasion-marker {
   display:flex;
   align-items:center;
   justify-content:space-between;
   height:19px}
-.double-happiness {
+.occasion-emblem {
   display:grid;
   place-items:center;
   width:36px;
   height:36px;
   flex-shrink:0;
-  color:var(--ink);
+  color:var(--occasion-marker);
   border:1px solid currentColor;
   border-radius:50%;
   background:transparent}
+.occasion-emblem svg {
+  display:block;
+  width:26px;
+  height:26px;
+  stroke:currentColor;
+  stroke-width:1.4;
+  stroke-linecap:round;
+  stroke-linejoin:round}
 .double-happiness::before {
   content:'';
   display:block;
@@ -578,10 +587,13 @@ footer>span {
   width:100%;
   border-top:1px solid #ffffff40}
 
-.slide-caption>span {
-  display:block;
+.slide-caption>a {
+  display:inline-flex;
+  align-items:center;
+  gap:22px;
   font-family:Georgia,serif;
   font-size:23px}
+.slide-caption>a:hover {color:var(--accent)}
 .slide-caption small {
   display:block;
   margin-top:8px;
@@ -645,6 +657,8 @@ footer>span {
   .hero {
   min-height:690px;
   padding-top:55px}
+.hero-bottom {
+  flex-wrap:wrap}
 .hero-copy {
   max-width:550px}
 .hero-shade {
@@ -668,8 +682,15 @@ footer>span {
   padding:22px 0}
 .slideshow-controls {
   width:100%;
-  justify-content:flex-start}
-.slide-caption>span {
+  display:grid;
+  grid-template-columns:44px minmax(0,1fr) 44px;
+  gap:10px}
+.slide-dots {justify-content:center}
+.slide-dots button {min-width:28px}
+#slide-pause {
+  grid-column:1/-1;
+  justify-self:start}
+.slide-caption>a {
   font-size:22px}
 .slide-caption small {
   font-size:12px}

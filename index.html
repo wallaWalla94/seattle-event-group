@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Seattle Event Group | Beautiful celebrations, thoughtfully priced</title>
-<meta name="description" content="A fresh approach to weddings, private celebrations, and company gatherings in Seattle, Bellevue, Redmond, and Kirkland. Elevated design. Thoughtful budgets.">
+<meta name="description" content="A fresh approach to weddings, tea ceremonies, XV años, and company gatherings in Seattle, Bellevue, Redmond, and Kirkland. Elevated design. Thoughtful budgets.">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='20' fill='%23382130'/%3E%3Ctext x='20' y='29' text-anchor='middle' font-family='Georgia' font-size='29' fill='%23fffaf4'%3Es%3C/text%3E%3C/svg%3E">
-<link rel="stylesheet" href="styles.css?v=outline-emblem">
+<link rel="stylesheet" href="styles.css?v=four-occasions">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -36,14 +36,17 @@
 <main id="main">
 <section class="hero" aria-label="Event inspiration slideshow" aria-roledescription="carousel">
 <div class="hero-slides">
-<figure class="hero-slide is-active" role="group" aria-roledescription="slide" aria-label="1 of 3: Weddings">
-<img src="event-dinner.jpg" alt="Wedding inspiration: candlelit tables and flowers in a forest glasshouse" fetchpriority="high">
+<figure class="hero-slide is-active" role="group" aria-roledescription="slide" aria-label="1 of 4: Weddings" data-occasion="Weddings" data-url="/weddings/">
+<img src="assets/weddings.png" alt="Wedding inspiration: ivory flowers and candlelit tables in a forest garden glasshouse" fetchpriority="high">
 </figure>
-<figure class="hero-slide" role="group" aria-roledescription="slide" aria-label="2 of 3: Private celebrations" aria-hidden="true">
-<img src="event-party.jpg" alt="Private celebration inspiration: an elegant rooftop birthday cocktail party" loading="eager">
+<figure class="hero-slide" role="group" aria-roledescription="slide" aria-label="2 of 4: Tea Ceremony" aria-hidden="true" data-occasion="Tea Ceremony" data-url="/tea-ceremony/">
+<img src="assets/tea-ceremony.png" alt="Tea ceremony inspiration: a red and gold tea set with ivory and burgundy flowers" loading="eager">
 </figure>
-<figure class="hero-slide" role="group" aria-roledescription="slide" aria-label="3 of 3: Company gatherings" aria-hidden="true">
-<img src="event-company.jpg" alt="Company gathering inspiration: a warm, modern loft reception" loading="eager">
+<figure class="hero-slide" role="group" aria-roledescription="slide" aria-label="3 of 4: XV años" aria-hidden="true" data-occasion="XV años" data-url="/xv-anos/">
+<img src="assets/xv-anos.png" alt="XV años inspiration: a princess ballroom with blush flowers, crystal chandeliers, and a grand staircase" loading="eager">
+</figure>
+<figure class="hero-slide" role="group" aria-roledescription="slide" aria-label="4 of 4: Corporate" aria-hidden="true" data-occasion="Corporate" data-url="/corporate/">
+<img src="assets/corporate.png" alt="Corporate event inspiration: an elegant venue with electric blue and violet stage lighting" loading="eager">
 </figure>
 </div>
 <div class="hero-shade" aria-hidden="true">
@@ -62,7 +65,7 @@
 </div>
 <div class="hero-bottom">
 <div class="slide-caption">
-<span id="slide-label">01 / Weddings</span>
+<a id="slide-occasion-link" href="/weddings/"><span id="slide-label">01 / Weddings</span><span aria-hidden="true">↗</span></a>
 <small>Imagined occasions · AI-generated inspiration</small>
 </div>
 <div class="slideshow-controls" hidden>
@@ -70,9 +73,11 @@
 <div class="slide-dots" aria-label="Choose an event">
 <button type="button" aria-label="Show weddings" aria-pressed="true" data-slide="0">
 </button>
-<button type="button" aria-label="Show private celebrations" aria-pressed="false" data-slide="1">
+<button type="button" aria-label="Show Tea Ceremony" aria-pressed="false" data-slide="1">
 </button>
-<button type="button" aria-label="Show company gatherings" aria-pressed="false" data-slide="2">
+<button type="button" aria-label="Show XV años" aria-pressed="false" data-slide="2">
+</button>
+<button type="button" aria-label="Show corporate" aria-pressed="false" data-slide="3">
 </button>
 </div>
 <button type="button" id="slide-next" aria-label="Next event">→</button>
@@ -93,7 +98,10 @@
 </div>
 <div class="occasion-grid">
 <article>
+<div class="occasion-marker">
 <span class="number">01</span>
+<span class="occasion-emblem" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M16 3v6m-3-3h6M8 17l8-8 8 8M10 15v13h12V15M6 28h20M13 28v-6a3 3 0 0 1 6 0v6"/><path d="M13 16h.01M19 16h.01" stroke-width="2.5"/></svg></span>
+</div>
 <h3>Weddings &<br>“I do” moments</h3>
 <p>A celebration that feels like the two of you, with thoughtful details and room for the traditions you love.</p>
 <a class="occasion-link" href="/weddings/">Explore weddings <span aria-hidden="true">↗</span></a>
@@ -101,20 +109,26 @@
 <article>
 <div class="occasion-marker">
 <span class="number">02</span>
-<span class="double-happiness" aria-hidden="true"></span>
+<span class="occasion-emblem double-happiness" aria-hidden="true"></span>
 </div>
 <h3>Tea Ceremony &<br>family traditions</h3>
 <p>A small cup, a lifetime of meaning. Honor your families with warmth, gratitude, and details that feel personal.</p>
 <a class="occasion-link" href="/tea-ceremony/">Explore Tea Ceremony <span aria-hidden="true">↗</span></a>
 </article>
 <article>
+<div class="occasion-marker">
 <span class="number">03</span>
+<span class="occasion-emblem" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7 23 5 12l7 6 4-10 4 10 7-6-2 11ZM7 26h18"/><circle cx="5" cy="10" r="1.5"/><circle cx="16" cy="6" r="1.5"/><circle cx="27" cy="10" r="1.5"/></svg></span>
+</div>
 <h3>XV años &<br>fairytale moments</h3>
 <p>A little royal, a little sparkle, and a whole lot of you. A quinceañera that celebrates your own kind of magic.</p>
 <a class="occasion-link" href="/xv-anos/">Explore XV años <span aria-hidden="true">↗</span></a>
 </article>
 <article>
+<div class="occasion-marker">
 <span class="number">04</span>
+<span class="occasion-emblem" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><rect x="5" y="11" width="22" height="16" rx="2"/><path d="M11 11V7h10v4M5 17l11 4 11-4M16 19v4"/></svg></span>
+</div>
 <h3>Business,<br>with personality</h3>
 <p>Team celebrations and company gatherings that trade the ordinary for an atmosphere people connect in.</p>
 <a class="occasion-link" href="/corporate/">Explore corporate <span aria-hidden="true">↗</span></a>
@@ -168,7 +182,7 @@
 <p>Beautiful moments. Thoughtfully made.</p>
 <span>© 2026 Seattle Event Group</span>
 </footer>
-<script src="script.js?v=occasion-menu" defer>
+<script src="script.js?v=four-occasions" defer>
 </script>
 </body>
 </html>
