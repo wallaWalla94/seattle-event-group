@@ -6,7 +6,7 @@ The hero images were generated using the built-in Imagegen tool. The Tea Ceremon
 
 ## double-happiness.png
 
-The gold emblem is the user's existing wedding website artwork, reused at their request from https://ginacarloswedding.com/img/chineseWeddingCircleI.png. The homepage displays the original image inside a small circular frame; this asset was not AI-generated.
+The emblem is the user's existing wedding website artwork, reused at their request from https://ginacarloswedding.com/img/chineseWeddingCircleI.png. The homepage uses the original image as a CSS mask so its shape matches the text color, inside a transparent circular outline. The original asset remains gold and was not AI-generated.
 
 ## tea-ceremony.png
 

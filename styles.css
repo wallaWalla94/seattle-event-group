@@ -236,13 +236,18 @@ h2 em {
   width:36px;
   height:36px;
   flex-shrink:0;
-  border:1px solid #cfab6280;
+  color:var(--ink);
+  border:1px solid currentColor;
   border-radius:50%;
-  background:var(--plum)}
-.double-happiness img {
+  background:transparent}
+.double-happiness::before {
+  content:'';
   display:block;
   width:25px;
-  height:auto}
+  height:23px;
+  background:currentColor;
+  -webkit-mask:url('assets/double-happiness.png') center/contain no-repeat;
+  mask:url('assets/double-happiness.png') center/contain no-repeat}
 h3 {
   font-weight:400;
   font-family:Georgia,serif;
