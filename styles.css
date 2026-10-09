@@ -231,10 +231,18 @@ h2 em {
   justify-content:space-between;
   height:19px}
 .double-happiness {
-  font-family:'SimSun','Songti SC',serif;
-  font-size:23px;
-  line-height:1;
-  color:#7b252d}
+  display:grid;
+  place-items:center;
+  width:36px;
+  height:36px;
+  flex-shrink:0;
+  border:1px solid #cfab6280;
+  border-radius:50%;
+  background:var(--plum)}
+.double-happiness img {
+  display:block;
+  width:25px;
+  height:auto}
 h3 {
   font-weight:400;
   font-family:Georgia,serif;

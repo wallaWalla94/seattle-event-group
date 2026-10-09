@@ -1,8 +1,12 @@
 # Occasion imagery
 
-These images are AI-generated event inspiration, not photographs of completed Seattle Event Group events.
+The four occasion hero images are AI-generated event inspiration, not photographs of completed Seattle Event Group events.
 
-Generated using the built-in Imagegen tool. The Tea Ceremony design takes palette and mood inspiration from https://ginacarloswedding.com/; no personal photography or content was copied.
+The hero images were generated using the built-in Imagegen tool. The Tea Ceremony design takes palette and mood inspiration from https://ginacarloswedding.com/; no personal photography or wedding text was copied.
+
+## double-happiness.png
+
+The gold emblem is the user's existing wedding website artwork, reused at their request from https://ginacarloswedding.com/img/chineseWeddingCircleI.png. The homepage displays the original image inside a small circular frame; this asset was not AI-generated.
 
 ## tea-ceremony.png
 
