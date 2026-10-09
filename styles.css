@@ -241,12 +241,13 @@ h2 em {
   border:1px solid currentColor;
   border-radius:50%;
   background:transparent}
-.occasion-emblem svg {
+.occasion-emblem img {
   display:block;
-  width:26px;
-  height:26px;
-  fill:currentColor;
-  stroke:none}
+  width:30px;
+  height:30px;
+  object-fit:contain}
+.tiara-emblem img {width:32px;height:32px}
+.briefcase-emblem img {width:27px;height:27px}
 .double-happiness::before {
   content:'';
   display:block;

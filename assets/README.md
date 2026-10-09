@@ -6,7 +6,11 @@ The hero images were generated using the built-in Imagegen tool. The Tea Ceremon
 
 ## double-happiness.png
 
-The emblem is the user's existing wedding website artwork, reused at their request from https://ginacarloswedding.com/img/chineseWeddingCircleI.png. The homepage uses the original image as a CSS mask so its shape matches the occasion number color, inside a transparent circular outline. The original asset remains gold and was not AI-generated. The other occasion emblems are inline SVG silhouettes inspired by the user's reference images: a chapel with a steeple, an ornate arched tiara, and a classic hard-sided briefcase. They use the same number color and circular outline.
+The emblem is the user's existing wedding website artwork, reused at their request from https://ginacarloswedding.com/img/chineseWeddingCircleI.png. The homepage uses the original image as a CSS mask so its shape matches the occasion number color, inside a transparent circular outline. The original asset remains gold and was not AI-generated.
+
+## Realistic occasion emblems
+
+chapel-realistic.png, tiara-realistic.png, and briefcase-realistic.png are photographic transparent cutouts generated with the built-in Imagegen tool from the user's reference photographs. Their shading retains realistic material detail. They share the number-colored circular outline. See [realistic-emblem-prompts.md](realistic-emblem-prompts.md) for the saved asset names and final prompts.
 
 ## tea-ceremony.png
 
