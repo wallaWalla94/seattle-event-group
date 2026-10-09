@@ -6,19 +6,32 @@
 <title>Seattle Event Group | Beautiful celebrations, thoughtfully priced</title>
 <meta name="description" content="A fresh approach to weddings, private celebrations, and company gatherings in Seattle, Bellevue, Redmond, and Kirkland. Elevated design. Thoughtful budgets.">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='20' fill='%23382130'/%3E%3Ctext x='20' y='29' text-anchor='middle' font-family='Georgia' font-size='29' fill='%23fffaf4'%3Es%3C/text%3E%3C/svg%3E">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css?v=occasion-menu">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header>
+<header class="site-header">
 <a class="brand" href="#" aria-label="Seattle Event Group home">SEATTLE<span>EVENT GROUP</span>
 </a>
-<nav aria-label="Main navigation">
-<a href="#occasions">The occasions</a>
+<button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" hidden>
+<span class="menu-icon" aria-hidden="true"><span></span><span></span></span>
+<span class="menu-label">Menu</span>
+</button>
+<nav class="main-nav" id="main-navigation" aria-label="Main navigation">
+<details class="occasion-menu">
+<summary>The occasions <span class="dropdown-arrow" aria-hidden="true"></span></summary>
+<div class="occasion-dropdown">
+<a href="/weddings/">Weddings <span aria-hidden="true">↗</span></a>
+<a href="/xv-anos/">XV años <span aria-hidden="true">↗</span></a>
+<a href="/tea-ceremony/">Tea Ceremony <span aria-hidden="true">↗</span></a>
+<a href="/corporate/">Corporate <span aria-hidden="true">↗</span></a>
+<a class="all-occasions" href="#occasions">Explore all occasions</a>
+</div>
+</details>
 <a href="#approach">Our approach</a>
-</nav>
 <a class="nav-cta" href="#connect">Let’s celebrate <span>↗</span>
 </a>
+</nav>
 </header>
 <main id="main">
 <section class="hero" aria-label="Event inspiration slideshow" aria-roledescription="carousel">
@@ -152,7 +165,7 @@
 <p>Beautiful moments. Thoughtfully made.</p>
 <span>© 2026 Seattle Event Group</span>
 </footer>
-<script src="script.js" defer>
+<script src="script.js?v=occasion-menu" defer>
 </script>
 </body>
 </html>
