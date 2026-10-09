@@ -225,6 +225,16 @@ h2 em {
   font-family:Georgia,serif;
   font-size:16px;
   color:#927a87}
+.occasion-marker {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  height:19px}
+.double-happiness {
+  font-family:'SimSun','Songti SC',serif;
+  font-size:23px;
+  line-height:1;
+  color:#7b252d}
 h3 {
   font-weight:400;
   font-family:Georgia,serif;
