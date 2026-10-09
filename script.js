@@ -80,6 +80,7 @@
     occasionLink.href = slides[current].dataset.url;
   }
   function syncPause() {
+    hero.dataset.effectsPaused = String(paused);
     pauseButton.textContent = paused ? 'Play' : 'Pause';
     pauseButton.setAttribute('aria-label', paused ? 'Play slideshow' : 'Pause slideshow');
     schedule();

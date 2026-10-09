@@ -20,6 +20,8 @@ Use case: photorealistic-natural. Asset type: landscape website hero photograph,
 
 ## weddings.png
 
+Summer uses this original glasshouse scene. Spring, autumn, and winter use `weddings-spring.png`, `weddings-autumn.png`, and `weddings-winter.png`, each generated with a distinct venue and complete seasonal table styling. See [seasonal-wedding-prompts.md](seasonal-wedding-prompts.md) for the final prompts and seasonal selection details.
+
 Use case: photorealistic-natural. Asset type: landscape website hero photograph, wide 3:2. A romantic wedding dinner in a Pacific Northwest garden glasshouse at dusk. Long tables with flowing ivory linen, delicate ivory flowers, muted forest green foliage, sage napkins, candlelight and simple elegant glassware. Soft natural window light and a quietly cinematic forest outside. Palette warm ivory and dull forest green, sophisticated gentle organic luxury. Beautiful editorial event photography, deep perspective, no people, no text, no logos, no watermark. The entire scene should be elegant, soft, and timeless.
 
 ## xv-anos.png
@@ -27,5 +29,7 @@ Use case: photorealistic-natural. Asset type: landscape website hero photograph,
 Use case: photorealistic-natural. Asset type: landscape website hero photograph, wide 3:2. A princess-inspired quinceanera ballroom celebration, sophisticated and dreamy rather than childish: a graceful grand staircase, crystal chandeliers, lavish blush pink and soft lilac flowers, antique gold details, pink silk draping and elegant candlelit tables. Warm ivory marble, subtle sparkle and rosy evening light. Beautiful luxury event editorial photography. A graceful fantasy made real, no people, no Disney characters, no text, no logos, no watermark.
 
 ## corporate.png
+
+The website now uses `corporate-velora.png`, an edit with fictional VELORA Innovation Expo branding on the LED screens and freestanding stage letters. The original `corporate.png` is retained. See [corporate-velora-prompt.md](corporate-velora-prompt.md) for the built-in Imagegen edit prompt.
 
 Use case: photorealistic-natural. Asset type: landscape website hero photograph, wide 3:2. A high-energy elegant company launch celebration in a modern Seattle venue at night: sleek stage with abstract light bars, dynamic cyan and violet theatrical lighting, dramatic sharp beams, polished black surfaces, tall cocktail tables and sculptural ivory flowers. A city skyline seen through large windows. Energetic, electric, premium brand event editorial photography, refined rather than nightclub grunge. Center-right vivid stage lighting with dark architectural depth. No readable text, no logos, no watermark, no people.

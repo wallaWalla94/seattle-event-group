@@ -4,6 +4,8 @@ index.html - content and slide images
 styles.css - design, responsive layout, and hero gradient
 script.js - slideshow controls and timing (INTERVAL_MS = 6500)
 occasions.css and occasions.js - distinct occasion pages and downloadable event briefs
+theme.css and theme.js - shared light/dark palette toggle, saved across pages
+event-effects.css and event-effects.js - seasonal wedding scenes and subtle photo animations
 weddings/, tea-ceremony/, xv-anos/, corporate/ - occasion pages
 assets/ - AI-generated event inspiration; see assets/README.md for prompts
 
